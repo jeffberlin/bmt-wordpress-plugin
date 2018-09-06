@@ -8,3 +8,7 @@
 * Select the BMT Micro zip/compressed file and then click Install.
 * Once installed, select to activate the plugin.
 * Now your plugin should be installed and ready to use!
+
+### Settings:
+
+In the "Settings" section for the BMT Micro plugin, you will be able to enter your Vendor ID to display your custom BMT cart set up during the checkout process.
