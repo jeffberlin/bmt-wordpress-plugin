@@ -15,15 +15,15 @@
 // https://www.ironistic.com/using-php-sessions-in-wordpress/
 	add_action('init', 'start_session', 1);
 
-	// if (version_compare(PHP_VERSION, '5.4.0') >= 0) {
-	// 	if (session_status() == PHP_SESSION_NONE) {
-	// 		session_start();
-	// 	}
-	// } else {
-	// 	if (session_id() == '') {
-	// 		session_start();
-	// 	}
-	// }
+	if (version_compare(PHP_VERSION, '5.4.0') >= 0) {
+		if (session_status() == PHP_SESSION_NONE) {
+			session_start();
+		}
+	} else {
+		if (session_id() == '') {
+			session_start();
+		}
+	}
 
 	define('BMT_CART_VERSION', '1.0.0');
 	define('BMT_CART_FOLDER', dirname(plugin_basename(__FILE__)));

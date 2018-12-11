@@ -169,5 +169,4 @@
     	</form>
 
 		</div></div>'; // These 2 closing div's close out #poststuff and #post-body
-
  	}
