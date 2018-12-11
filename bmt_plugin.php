@@ -2,17 +2,19 @@
 
 	/*
 	Plugin Name: BMT Micro Shopping Cart
-	Plugin URI: https://www.bmtmicro.com/
-	description: Shopping cart plugin for BMT Micro vendors
 	Version: 1.0.0
+	Plugin URI: https://www.bmtmicro.com/
 	Author: BMT Micro, Inc.
 	Author URI: https://www.bmtmicro.com/
-	License: GPL2
+	Description: Shopping cart plugin for BMT Micro vendors
+	Text Domain: BMT Micro, Inc. Shopping Cart Plugin for BMT Micro Vendors!
+	Domain Path: /languages/
 	*/
+
+	//Slug - bmt
 
 	defined( 'ABSPATH' ) or die( 'Checkout BMTMicro.com for more info!' );
 
-// https://www.ironistic.com/using-php-sessions-in-wordpress/
 	add_action('init', 'start_session', 1);
 
 	if (version_compare(PHP_VERSION, '5.4.0') >= 0) {
