@@ -4,7 +4,6 @@
 
 	add_shortcode('bmt_buy_now_button', 'bmt_buy_now_button_handler');
 	add_shortcode('bmt_add_cart_button', 'bmt_add_cart_button_handler');
-	//add_shortcode('show_bmt_cart', 'show_bmt_shopping_cart_handler');
 	add_shortcode('bmt_checkout_button', 'bmt_checkout_handler');
 	add_shortcode('bmt_cart_show', 'bmt_cart_show_handler');
 

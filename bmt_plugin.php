@@ -73,8 +73,6 @@
 
 	add_filter('show_admin_bar', '__return_true');
 
-	//add_filter('the_content', 'shopping_cart_show');
-
 	add_action('template_redirect', 'add_my_script');
 
 	function add_my_script() {
