@@ -45,7 +45,7 @@
 	// loading language files
 	//Set up localization. First loaded overrides strings present in later loaded file
 	$locale = apply_filters('plugin_locale', get_locale(), 'wordpress-simple-paypal-shopping-cart');
-	load_textdomain('wordpress-simple-paypal-shopping-cart', BMT_LANG_DIR . "/wordpress-simple-paypal-shopping-cart-$locale.mo");
+	load_textdomain('wordpress-simple-paypal-shopping-cart', WP_LANG_DIR . "/wordpress-simple-paypal-shopping-cart-$locale.mo");
 	load_plugin_textdomain('wordpress-simple-paypal-shopping-cart', false, BMT_CART_FOLDER . '/languages');
 
 	include_once('bmt_cart_menu_main.php');
@@ -58,7 +58,7 @@
 	// ADD NEW CODE HERE BELOW
 
 	function bmt_admin_side_styles() {
-		wp_enqueue_style('bmt-admin-style', WP_CART_URL . '/css/bmt-admin-styles.css', array(), BMT_CART_VERSION);
+		wp_enqueue_style('bmt-admin-style', BMT_CART_URL . '/css/bmt-admin-styles.css', array(), BMT_CART_VERSION);
 	}
 
 	function bmt_front_side_enqueue_scripts() {
