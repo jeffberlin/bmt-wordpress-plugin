@@ -58,7 +58,7 @@
 	// ADD NEW CODE HERE BELOW
 
 	function bmt_admin_side_styles() {
-		wp_enqueue_style('bmt-admin-style', BMT_CART_URL . '/css/bmt-admin-styles.css', array(), BMT_CART_VERSION);
+		wp_enqueue_style('bmt-admin-style', WP_CART_URL . '/css/bmt-admin-styles.css', array(), BMT_CART_VERSION);
 	}
 
 	function bmt_front_side_enqueue_scripts() {
