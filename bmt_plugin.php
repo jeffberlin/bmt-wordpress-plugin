@@ -3,7 +3,7 @@
 	/*
 	Plugin Name: BMT Micro Shopping Cart
 	Version: 1.0.0
-	Plugin URI: https://www.bmtmicro.com/
+	Plugin URI: https://www.help.bmtmicro.com/plugin
 	Author: BMT Micro, Inc.
 	Author URI: https://www.bmtmicro.com/
 	Description: Shopping cart plugin for BMT Micro vendors
