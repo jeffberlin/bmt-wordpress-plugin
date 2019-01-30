@@ -53,7 +53,7 @@
 	include_once('add_cart.php');
 	include_once('buy_now.php');
 	include_once('checkout.php');
-	include_once('wp-config.php');
+	// include_once('wp-config.php');
 
 	// ADD NEW CODE HERE BELOW
 
