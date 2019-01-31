@@ -80,5 +80,5 @@
 	}
 
 	add_action('wp_enqueue_scripts', 'bmt_front_side_enqueue_scripts');
-	add_action('admin_enqueue_scripts', 'bmt_admin_side_enqueue_scripts');
+	//add_action('admin_enqueue_scripts', 'bmt_admin_side_enqueue_scripts');
 	add_action('admin_print_styles', 'bmt_admin_side_styles');
