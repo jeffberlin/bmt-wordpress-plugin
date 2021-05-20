@@ -90,7 +90,7 @@
 	<!-- top yellow box on settings page -->
 	    <div class="bmt_yellow_box">
 	        <p><?php _e("For more information about BMT Micro vendor features or to access your vendor account, please visit:", "wordpress-simple-paypal-shopping-cart"); ?><br />
-	        <a href="https://www.bmtmicro.com/" target="_blank"><?php _e("BMT Micro, Inc.", "wordpress-simple-paypal-shopping-cart"); ?></a></p><br /><br />
+	        <a href="https://www.bmtmicro.com/" target="_blank"><?php _e("BMT Micro, Inc.", "wordpress-simple-paypal-shopping-cart"); ?></a></p>
 					<p><?php _e("For more information about the BMT Micro plugin, please visit:", "wordpress-simple-paypal-shopping-cart"); ?><br />
 	        <a href="https://help.bmtmicro.com/plugin" target="_blank"><?php _e("BMT Micro Plugin", "wordpress-simple-paypal-shopping-cart"); ?></a><br /><br />
 					<?php _e("Having any plugin issues? Notice any bugs? Have an idea or feature we should consider adding? Send us an email so we can improve the plugin:", "wordpress-simple-paypal-shopping-cart"); ?><br />
